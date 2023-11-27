@@ -1,0 +1,55 @@
+.headerBlock {
+    background-color: #2f3340;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.BlockMiddle {
+    display: block;
+    width: 33%;
+}
+
+.BlockLeft,
+.BlockRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.BlockLeft div:hover,
+.BlockRight div:hover {
+    color: #93959b;
+    transition: 0.5s;
+}
+
+.BlockLeft .menuBurger {
+    font-size: 30px;
+}
+
+.logo {
+    padding: 0 50px;
+    transition: transform 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.hiddenBurger {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
